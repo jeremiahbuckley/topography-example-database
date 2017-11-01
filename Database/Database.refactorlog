@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="dcbf7552-e5eb-4907-ab46-cbae7baef741" ChangeDateTime="11/01/2017 14:04:28">
+    <Property Name="ElementName" Value="[dbo].[Comment].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Comment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Comment" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a7df7e1-1f06-4b6d-83fe-e2a94911dfb5" ChangeDateTime="11/01/2017 14:04:46">
+    <Property Name="ElementName" Value="[dbo].[Comment].[Enabled]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Comment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TopicId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a6050d91-c946-46f5-ae78-5bf2b699a91a" ChangeDateTime="11/01/2017 14:27:28">
+    <Property Name="ElementName" Value="[dbo].[Comment].[DateAdded]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Comment]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateTimeAdded" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b7d69ce8-7f33-4004-8c93-986df456acfd" ChangeDateTime="11/01/2017 14:33:11">
+    <Property Name="ElementName" Value="[dbo].[User].[DateJoined]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateTimeJoined" />
+  </Operation>
+</Operations>
