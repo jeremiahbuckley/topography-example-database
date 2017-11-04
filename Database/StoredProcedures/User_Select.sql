@@ -10,15 +10,17 @@ AS
 				  ,[Enabled]
 				  ,[DateTimeJoined]
 				  ,[Id]
+				  ,[Version]
 			  FROM [dbo].[User]
 		END
 	ELSE
 		BEGIN
-			SELECT [name]
-				  ,[enabled]
+			SELECT [Name]
+				  ,[Enabled]
 				  ,[DateTimeJoined]
-				  ,[id]
-			  FROM [dbo].[user]
+				  ,[Id]
+				  ,[Version]
+			  FROM [dbo].[User]
 			  WHERE id = @id
 		END
 RETURN 0

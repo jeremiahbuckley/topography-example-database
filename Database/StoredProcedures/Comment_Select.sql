@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[Comment_Get]
+﻿CREATE PROCEDURE [dbo].[Comment_Select]
 	@id int = null
 AS
 	SET NOCOUNT ON;
@@ -13,6 +13,7 @@ AS
 				  ,[Comment]
 				  ,[ReplyToCommentId]
 				  ,[DateTimeAdded]
+				  ,[Version]
 			  FROM [dbo].[Comment]
   		END
 	ELSE
@@ -24,6 +25,7 @@ AS
 				  ,[UserId]
 				  ,[ReplyToCommentId]
 				  ,[DateTimeAdded]
+				  ,[Version]
 			  FROM [dbo].[Comment]
 			  WHERE Id = @id
 		END

@@ -6,5 +6,6 @@
     [ThreadId] INT NOT NULL, 
     [ReplyToCommentId] INT NULL, 
     [DateTimeAdded] DATETIME NOT NULL, 
-    [UserId] INT NOT NULL
+    [UserId] INT NOT NULL, 
+    [Version] ROWVERSION NOT NULL
 )

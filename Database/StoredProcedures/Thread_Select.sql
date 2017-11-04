@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[Thread_Get]
+﻿CREATE PROCEDURE [dbo].[Thread_Select]
 	@id int = null
 AS
 	SET NOCOUNT ON;
@@ -12,6 +12,7 @@ AS
 			      ,[Pinned]
 				  ,[PinOrder]
 				  ,[Enabled]
+				  ,[Version]
 			  FROM [dbo].[Thread]
 		END
 	ELSE
@@ -22,6 +23,7 @@ AS
 			      ,[Pinned]
 				  ,[PinOrder]
 				  ,[Enabled]
+				  ,[Version]
 			  FROM [dbo].[Thread]
 			  WHERE [Id] = @id
 		END

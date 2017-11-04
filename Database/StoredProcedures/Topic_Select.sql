@@ -9,13 +9,15 @@ AS
 			SELECT [Name]
 				  ,[Enabled]
 				  ,[Id]
+				  ,[Version]
 			  FROM [dbo].[Topic]
 		END
 	ELSE
 		BEGIN
-			SELECT [name]
+			SELECT [Name]
 				  ,[Enabled]
-				  ,[id]
+				  ,[Id]
+				  ,[Version]
 			  FROM [dbo].[topic]
 			  WHERE [id] = @id
 		END

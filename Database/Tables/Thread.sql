@@ -5,5 +5,6 @@
     [Pinned] BIT NOT NULL, 
     [PinOrder] INT NULL, 
     [Enabled] INT NOT NULL, 
-    [TopicId] INT NOT NULL
+    [TopicId] INT NOT NULL, 
+    [Version] ROWVERSION NOT NULL
 )
