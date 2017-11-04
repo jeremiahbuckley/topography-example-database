@@ -4,7 +4,7 @@
     [Name] NVARCHAR(MAX) NOT NULL, 
     [Pinned] BIT NOT NULL, 
     [PinOrder] INT NULL, 
-    [Enabled] INT NOT NULL, 
+    [Enabled] BIT NOT NULL, 
     [TopicId] INT NOT NULL, 
     [Version] ROWVERSION NOT NULL
 )

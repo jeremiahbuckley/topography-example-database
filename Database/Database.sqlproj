@@ -72,6 +72,7 @@
     <Build Include="StoredProcedures\User_Update.sql" />
     <Build Include="StoredProcedures\Thread_Update.sql" />
     <Build Include="StoredProcedures\Comment_Update.sql" />
+    <Build Include="StoredProcedures\User_SelectByName.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database.refactorlog" />
